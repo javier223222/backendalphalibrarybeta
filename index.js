@@ -6,10 +6,8 @@ const app=express()
 
 const mysql=require("mysql")
 const cors=require("cors")
-const accountSid = 'ACfc2c06172b2b7ed0ad1df3a358cdd001';
-const authToken = '829798f2c7f63dda6d0299b09f8f0752'
 
-const client = require('twilio')(accountSid, authToken);
+
 
 
 app.use(cors())
